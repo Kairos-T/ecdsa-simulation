@@ -1,4 +1,4 @@
-# ECDSA-Simulation
+# ECDSA Simulation
 This repository contains a Python script that simulates communication using the Elliptic Curve Digital Signature Algorithm (ECDSA) between two parties, Alice and Bob. ECDSA is a widely used digital signature algorithm that provides a secure way to sign and verify messages.
 
 ## Getting Started

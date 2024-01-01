@@ -66,9 +66,9 @@ def simulate_ecdsa_communication():
 
     while True:
         print("\nMenu:")
-        print("1. Perfect Implementation")
-        print("2. Tampered Message")
-        print("3. Exit")
+        print("[1] Perfect Implementation")
+        print("[2] Tampered Message")
+        print("[3] Exit")
 
         choice = input("Enter your choice (1, 2, or 3): ")
 
@@ -103,14 +103,17 @@ def simulate_ecdsa_communication():
 
 if __name__ == "__main__":
     print("-" * 50 + "\n\n")
-    print(text2art("ECDSA"))
+    print(text2art("ECDSA", font="small"))
     print("-" * 50)
     print("CTG Assignment CSF02 2023\n")
     print(
-        "This script simulates ECDSA communication between Alice and Bob.\n"
-        "It includes functions for generating ECDSA key pairs, signing and verifying\n"
-        "messages using the Elliptic Curve Digital Signature Algorithm (ECDSA).\n"
-        "Users can choose between a perfect implementation or a simulation with a tampered message,\n"
-        "demonstrating the ability of ECDSA to detect message tampering and ensure data integrity."
+        "This script simulates ECDSA communication between\n"
+        "Alice and Bob. It includes functions for generating\n"
+        "ECDSA key pairs, signing and verifying messages using\n"
+        "the Elliptic Curve Digital Signature Algorithm (ECDSA).\n"
+        "Users can choose between a perfect implementation or a\n"
+        "simulation with a tampered message, demonstrating the\n"
+        "ability of ECDSA to detect message tampering\n"
+        "and ensure data integrity."
     )
     simulate_ecdsa_communication()
